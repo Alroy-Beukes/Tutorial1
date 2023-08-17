@@ -8,24 +8,24 @@ type car record {
     string model;
     int gear;
     string engine_type;
-    record{} radio;
+    //record{} radio;
 };
 
-type radio record{
-    string name;
-    string radio_type;
-};
+//type radio record{
+    //string name;
+    //string radio_type;
+//};
 
 public function main() {
     io:println("Hello, World!");
 
         //Data types
-    st name = "Bob";
+    //st name = "Bob";
     int age = 20;
-    float height = 20.9;
-    decimal color = 0x78973;
+    //float height = 20.9;
+    //decimal color = 0x78973;
 
-    any salary = 340900;
+    //any salary = 340900;
 
     //Conditions:
     if (age >= 34){
@@ -77,18 +77,18 @@ public function main() {
     };
 
     int student1 = marks.get( "Isaac");
-    int student2 = marks["Isaac"]?:0;
-    int? student3 = marks["Isaac"];
+    //int student2 = marks["Isaac"]?:0;
+    //int? student3 = marks["Isaac"];
     io:println(student1);
 
     //Records
-    car car1 ={
-        color: "Red",
-        gear: 6,
-        engine_type: "v10",
-        model: "Volvo",
-        radio: {name: "sony", radio_type: "FM"}
-    };
+    //car car1 ={
+        //color: "Red",
+        //gear: 6,
+        //engine_type: "v10",
+        //model: "Volvo"
+        //radio: {name: "sony", radio_type: "FM"}
+   // };
 }     
 
 
